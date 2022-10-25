@@ -128,9 +128,9 @@ export const SDK_CSS = `
 
 .woot-widget-bubble img {
   all: revert;
-  height: 24px;
-  margin: 20px;
-  width: 24px;
+  height: 50px;
+  margin: 0px;
+  width: 50px;
 }
 
 @media only screen and (min-width: 667px) {
