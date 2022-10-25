@@ -4,7 +4,8 @@ import { isExpandedView } from './settingsHelper';
 
 // export const bubbleImg =
 //   'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAUVBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////8IN+deAAAAGnRSTlMAAwgJEBk0TVheY2R5eo+ut8jb5OXs8fX2+cjRDTIAAADsSURBVHgBldZbkoMgFIThRgQv8SKKgGf/C51UnJqaRI30/9zfe+NQUQ3TvG7bOk9DVeCmshmj/CuOTYnrdBfkUOg0zlOtl9OWVuEk4+QyZ3DIevmSt/ioTvK1VH/s5bY3YdM9SBZ/mUUyWgx+U06ycgp7D8msxSvtc4HXL9BLdj2elSEfhBJAI0QNgJEBI1BEBsQClVBVGDgwYOLAhJkDM1YOrNg4sLFAsLJgZsHEgoEFFQt0JAFGFjQsKAMJ0LFAexKgZYFyJIDxJIBNJEDNAtSJBLCeBDCOBFAPzwFA94ED+zmhwDO9358r8ANtIsMXi7qVAwAAAABJRU5ErkJggg==';
-export const bubbleImg = "⏎··'https://store-images.s-microsoft.com/image/apps.43510.1fd63f3d-b65b-40a4-b3fd-fb953cab1750.723e4244-c9a6-434c-9a5a-e1b4a62d5bb5.e0d160a7-8a25-4df9-a6ac-1c3c7847fe60.png'";
+export const bubbleImg =
+  'https://store-images.s-microsoft.com/image/apps.43510.1fd63f3d-b65b-40a4-b3fd-fb953cab1750.723e4244-c9a6-434c-9a5a-e1b4a62d5bb5.e0d160a7-8a25-4df9-a6ac-1c3c7847fe60.png';
 export const body = document.getElementsByTagName('body')[0];
 export const widgetHolder = document.createElement('div');
 
