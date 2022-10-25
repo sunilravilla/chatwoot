@@ -1,9 +1,9 @@
 {
-  "name": "Chatwoot",
-  "description": "Chatwoot is a customer support tool for instant messaging channels",
-  "website": "https://www.chatwoot.com/",
-  "repository": "https://github.com/chatwoot/chatwoot",
-  "logo": "https://app.chatwoot.com/brand-assets/logo_thumbnail.svg",
+  "name": "Ramco Support",
+  "description": "Ramco Support is a customer support tool for instant messaging channels",
+  "website": "https://www.ramco.com/",
+  "repository": "https://github.com/sunilravilla/chatwoot",
+  "logo": "https://store-images.s-microsoft.com/image/apps.43510.1fd63f3d-b65b-40a4-b3fd-fb953cab1750.723e4244-c9a6-434c-9a5a-e1b4a62d5bb5.e0d160a7-8a25-4df9-a6ac-1c3c7847fe60.png",
   "keywords": [
     "live chat",
     "customer support",
@@ -26,14 +26,14 @@
       "value": "production"
     },
     "FRONTEND_URL": {
-      "description": "Public root URL of the Chatwoot installation. This will be used in the emails.",
+      "description": "Public root URL of the Ramco Support installation. This will be used in the emails.",
       "value": "https://CHANGE.herokuapp.com"
     },
     "INSTALLATION_ENV": {
-      "description": "Installation method used for Chatwoot.",
+      "description": "Installation method used for Ramco Support.",
       "value": "heroku"
     },
-    "REDIS_OPENSSL_VERIFY_MODE":{
+    "REDIS_OPENSSL_VERIFY_MODE": {
       "description": "OpenSSL verification mode for Redis connections. ref https://help.heroku.com/HC0F8CUS/redis-connection-issues",
       "value": "none"
     }
@@ -50,7 +50,10 @@
   },
   "stack": "heroku-20",
   "image": "heroku/ruby",
-  "addons": [ "heroku-redis", "heroku-postgresql"],
+  "addons": [
+    "heroku-redis",
+    "heroku-postgresql"
+  ],
   "buildpacks": [
     {
       "url": "heroku/ruby"
