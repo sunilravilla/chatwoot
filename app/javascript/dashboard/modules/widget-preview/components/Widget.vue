@@ -29,7 +29,7 @@
       >
         <img
           v-if="!isWidgetVisible"
-          src="~dashboard/assets/images/bubble-logo.svg"
+          src="~dashboard/assets/images/chia.png"
           alt=""
         />
         <div>
@@ -256,10 +256,12 @@ export default {
     cursor: pointer;
 
     img {
-      height: var(--space-two);
-      width: var(--space-two);
-      margin: var(--space-one) var(--space-one) var(--space-one)
-        var(--space-two);
+      // height: var(--space-two);
+      // width: var(--space-two);
+      // margin: var(--space-one) var(--space-one) var(--space-one) var(--space-two);
+      height: 85%;
+      width: 85%;
+      margin: 5%;
     }
 
     div {

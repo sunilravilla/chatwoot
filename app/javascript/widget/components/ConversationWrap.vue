@@ -120,4 +120,26 @@ export default {
 .message--loader {
   text-align: center;
 }
+
+// keep ::-webkit-scrollbar inside .conversation--container
+// to avoid affecting other scrollbars
+.conversation--container {
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 20px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 20px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+}
 </style>
