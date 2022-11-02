@@ -2,7 +2,7 @@ version: '3'
 
 services:
   base: &base
-    image: chatwoot/chatwoot:latest
+    image: rsllivesupport:0.0.1
     env_file: .env ## Change this file for customized env variables
     volumes:
       - /data/storage:/app/storage
@@ -43,12 +43,12 @@ services:
       - POSTGRES_DB=chatwoot
       - POSTGRES_USER=postgres
       # Please provide your own password.
-      - POSTGRES_PASSWORD=
+      - POSTGRES_PASSWORD=admin
 
   redis:
     image: redis:alpine
     restart: always
-    command: ["sh", "-c", "redis-server --requirepass \"$REDIS_PASSWORD\""]
+    command: ['sh', '-c', 'redis-server --requirepass "$REDIS_PASSWORD"']
     env_file: .env
     volumes:
       - /data/redis:/data
